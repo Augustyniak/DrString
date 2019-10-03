@@ -3,4 +3,6 @@ public struct Explainer {
     public let summary: String
     public let rightExample: String?
     public let wrongExample: String?
+
+    public static var all: [String: Explainer] = [:]
 }
